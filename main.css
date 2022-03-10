@@ -4,9 +4,6 @@ body {
     margin: 0 auto;
     width: 100%;
     align-content: center;
-   
-  
-    
   }
 
  
@@ -14,8 +11,11 @@ body {
   h2 {
   
     margin-top: 100px;
+    margin-bottom: 50px;
   
   }
+
+ 
 
   
 
@@ -139,7 +139,12 @@ body {
   }
 
 
-  
+  .slider {
+    width:100%;
+    margin: 0;
+   align-items: center;
+  }
+
 
  
   
