@@ -1,0 +1,216 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 100%;
+    align-content: center;
+   
+  
+    
+  }
+
+ 
+
+  h2 {
+  
+    margin-top: 100px;
+  
+  }
+
+  
+
+  
+
+  .cursive {
+    text-transform: none;
+    font-family: 'Sacramento', sans-serif;
+  }
+  .skinny {
+    font-family: 'Quicksand', sans-serif;
+  }
+  *::selection {
+    background-color: #1D738A;
+    color: #fff;
+  }
+  .light-navy {
+    color: #c28d07;
+  }
+  .teal {
+    color: #50B4BD;
+  }
+  a:hover {
+    color: #EE6951;
+    text-decoration: none;
+  }
+  .sienna {
+    color: #c28d07;
+  }
+  .light-sienna {
+    color: #FF8C77;
+  }
+  .navbar {
+    font-size: .8rem;
+    font-weight: 400;
+    
+  }
+  .jumbotron {
+    background-size: cover;
+    height: 300px;
+    margin-top: 50px;
+  }
+  #header-home {
+    background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(255, 255, 255, 0)), url(img/IMG_8130.jpg);
+    background-position: 50% 35%;
+  }
+  #header-schedule {
+    background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/ny-wedding-day.jpg");
+    background-position: 50% 30%;
+  }
+  #header-registry {
+    background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/pio-isa-in-a-box.jpg");
+    background-position: 50% 60%;
+  }
+  #header-activities {
+    background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/everglades.jpg");
+    background-position: 50% 60%;
+  }
+  #header-photos {
+    background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/color-run.jpg");
+    background-position: 30% 45%;
+  }
+  #header-rsvp {
+    background-image: url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/harbor-room-tent.jpg");
+    background-position: 50% 60%;
+  }
+  h1 {
+    text-transform: uppercase;
+    
+  }
+  .dotted-divider {
+    font-size: 2.8rem;
+    line-height: 0;
+  }
+  .icons {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .fa-heart {
+    font-size: 1.2rem;
+  }
+  .fa-bicycle {
+    font-size: 3rem;
+  }
+  p.date {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+  p.location {
+    font-weight: 700;  
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  ul {
+    list-style: none;
+  }
+  ul.bullet-link-list li::before {
+    content: "•\00a0";
+    color: #50B4BD;
+  }
+  #activities .card-title {
+    letter-spacing: .03rem;
+  }
+  #footer-nav {
+    font-size: .9rem;
+  }
+  #copyright {
+    font-size: .9rem;
+  }
+
+  .imatge-historia{
+    width:100%;
+    margin: 0;
+    align-items: center;
+   
+  }
+  .imatge-canribas img{
+    width:70%;
+    margin: 0;
+   align-items: center;
+  }
+
+
+  
+
+ 
+  
+
+  .lanostra .lloc .contacte .confirmació{
+    justify-content: center;
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 406px) {
+    .jumbotron {
+      height: 400px;
+    }
+    .card-columns {
+      column-count: 2;
+    }
+
+    
+
+    
+
+    h1{
+      font-size:24px;
+    }
+
+    /*h2{
+      font-size: 20px;
+    }*/
+
+    span .navbar{
+      font-size: 10px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .card-columns {
+      column-count: 3;
+    }
+
+    .imatge-historia img{
+      width:150px;
+    }
+     h1 {
+       font-size: 30px;
+     }
+    
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .jumbotron {
+      height: 550px;
+    }
+
+    .imatge-historia img{
+      width:250px;}
+
+
+   
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+    .jumbotron {
+      height: 550px;
+    }
+
+    .imatge-historia img{
+      width:250px;
+  
+  }
+
+}
