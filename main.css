@@ -12,12 +12,13 @@ body {
   
     margin-top: 100px;
     margin-bottom: 50px;
+    font-weight: 500;
+    font-size:3rem;
+   
   
   }
 
-  .carousel-control-prev{
-    color:black; 
-  }
+
 
  
 
@@ -182,6 +183,9 @@ body {
       font-size: 10px;
     }
   }
+
+
+  
   
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {
