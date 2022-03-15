@@ -13,9 +13,23 @@ body {
     margin-top: 100px;
     margin-bottom: 50px;
     font-weight: 500;
-    font-size:3rem;
+    font-size:2rem;
    
   
+  }
+
+  .slider h3  {
+    color:#50B4BD;  
+  }
+
+  h5{
+    color:#50B4BD;  
+
+  }
+
+
+  p{
+    font-size: 1.2rem;
   }
 
 
@@ -145,8 +159,8 @@ body {
 
 
   .slider {
-    width:100%;
-    margin: 0;
+    width:50%;
+    margin: 0 auto;
    align-items: center;
   }
 
@@ -167,8 +181,14 @@ body {
       column-count: 2;
     }
 
+    .slider {
+      width:100%;
+      margin: 0 auto;
+     align-items: center;
+    }
 
-    
+
+   
     
 
     
@@ -184,6 +204,12 @@ body {
     span .navbar{
       font-size: 10px;
     }
+    p {
+    font-size:medium; 
+    }
+
+
+    
   }
 
 
@@ -201,6 +227,19 @@ body {
      h1 {
        font-size: 30px;
      }
+
+
+     .slider {
+      width:70%;
+      margin: 0 auto;
+     align-items: center;
+    }
+
+
+    p {
+      font-size:large; 
+      }
+
     
   }
   
@@ -212,6 +251,11 @@ body {
 
     .imatge-historia img{
       width:250px;}
+
+      p {
+        font-size:large; 
+        }
+  
 
 
    
