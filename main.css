@@ -171,6 +171,40 @@ body {
   .lanostra .lloc .contacte .confirmació{
     justify-content: center;
   }
+
+
+  @media (min-width: 350px) {
+    .jumbotron {
+      height: 400px;
+    }
+    .card-columns {
+      column-count: 2;
+    }
+
+    .slider {
+      width:100%;
+      margin: 0 auto;
+     align-items: center;
+    }
+ 
+
+    h1{
+      font-size:24px;
+    }
+
+    /*h2{
+      font-size: 20px;
+    }*/
+
+    span .navbar{
+      font-size: 10px;
+    }
+    p {
+    font-size:medium; 
+    }  
+  }
+
+
   
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 406px) {
@@ -186,12 +220,7 @@ body {
       margin: 0 auto;
      align-items: center;
     }
-
-
-   
-    
-
-    
+ 
 
     h1{
       font-size:24px;
@@ -206,10 +235,7 @@ body {
     }
     p {
     font-size:medium; 
-    }
-
-
-    
+    }  
   }
 
 
@@ -230,7 +256,7 @@ body {
 
 
      .slider {
-      width:70%;
+      width:90%;
       margin: 0 auto;
      align-items: center;
     }
@@ -255,7 +281,11 @@ body {
       p {
         font-size:large; 
         }
-  
+        .slider {
+          width:70%;
+          margin: 0 auto;
+         align-items: center;
+        }
 
 
    
